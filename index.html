@@ -3,49 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Escola Proherf | Educação de Excelência</title>
+    <title>Escola Proherf | Educação para o Futuro</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
     <header>
-        <nav class="container">
-            <div class="logo">PROHERF<span>.</span></div>
-            <ul>
-                <li><a href="#">Início</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Cursos</a></li>
-                <li><a href="#" class="btn-contato">Contato</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <div class="logo">
+                <h1>PROHERF</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#cursos">Cursos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                    <li><a href="#" class="btn-portal">Portal do Aluno</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <section class="hero">
-        <div class="container hero-content">
-            <h1>Transformando o futuro através do conhecimento.</h1>
-            <p>Na Proherf, unimos tecnologia e pedagogia para formar cidadãos preparados para o mundo.</p>
-            <a href="#" class="btn-principal">Saiba Mais</a>
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h2>Construindo o amanhã, hoje.</h2>
+            <p>Na Proherf, focamos no desenvolvimento integral do aluno com tecnologia e empatia.</p>
+            <a href="#sobre" class="btn-main">Conheça nossa metodologia</a>
         </div>
     </section>
 
-    <section class="features container">
-        <div class="card">
-            <h3>Ensino Inovador</h3>
-            <p>Metodologias ativas que estimulam o pensamento crítico dos alunos.</p>
+    <section id="sobre" class="container section">
+        <div class="about-grid">
+            <div class="text">
+                <h2>Nossa Instituição</h2>
+                <p>Com mais de 20 anos de tradição, a <strong>Escola Proherf</strong> se destaca pela excelência acadêmica e pelo ambiente acolhedor. Nossa missão é preparar cidadãos críticos e preparados para os desafios globais.</p>
+                <p>Oferecemos infraestrutura de ponta, laboratórios modernos e uma equipe pedagógica altamente qualificada.</p>
+            </div>
+            <div class="stats">
+                <div class="stat-card"><h3>+1500</h3><p>Alunos Ativos</p></div>
+                <div class="stat-card"><h3>98%</h3><p>Aprovação</p></div>
+            </div>
         </div>
-        <div class="card">
-            <h3>Infraestrutura</h3>
-            <p>Laboratórios modernos e espaços planejados para o bem-estar.</p>
+    </section>
+
+    <section id="cursos" class="bg-light">
+        <div class="container section">
+            <h2 class="text-center">Nossos Níveis de Ensino</h2>
+            <div class="card-grid">
+                <div class="card">
+                    <h3>Ensino Fundamental</h3>
+                    <p>Base sólida e estímulo à curiosidade natural da criança.</p>
+                </div>
+                <div class="card">
+                    <h3>Ensino Médio</h3>
+                    <p>Foco total em resultados, vestibulares e formação técnica.</p>
+                </div>
+                <div class="card">
+                    <h3>Atividades Extra</h3>
+                    <p>Robótica, Esportes, Artes e Línguas Estrangeiras.</p>
+                </div>
+            </div>
         </div>
-        <div class="card">
-            <h3>Corpo Docente</h3>
-            <p>Profissionais qualificados e apaixonados por transformar vidas.</p>
+    </section>
+
+    <section id="contato" class="container section">
+        <h2 class="text-center">Entre em Contato</h2>
+        <div class="contact-wrapper">
+            <div class="contact-info">
+                <h3>Informações</h3>
+                <p>📍 Av. Principal, 123 - Centro, Cidade/UF</p>
+                <p>📞 (11) 4002-8922</p>
+                <p>✉️ secretaria@proherf.edu.br</p>
+                <p>🕒 Horário: 07:00 às 18:00</p>
+            </div>
+            <form class="contact-form">
+                <input type="text" placeholder="Seu Nome" required>
+                <input type="email" placeholder="Seu E-mail" required>
+                <textarea placeholder="Como podemos ajudar?" rows="5"></textarea>
+                <button type="submit" class="btn-main">Enviar Mensagem</button>
+            </form>
         </div>
     </section>
 
     <footer>
-        <p>&copy; 2026 Escola Proherf - Todos os direitos reservados.</p>
+        <p>&copy; 2024 Escola Proherf. Todos os direitos reservados.</p>
     </footer>
 
 </body>
